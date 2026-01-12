@@ -1,0 +1,41 @@
+.accordion {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.accordion-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card {
+  width: 100%;
+  padding: 14px 16px;
+  background: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* Hover & Focus */
+.card:hover {
+  background-color: #f0f0f0;
+}
+
+
+.content {
+  padding: 14px 16px;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  border-top: 1px solid #e0e0e0;
+}
